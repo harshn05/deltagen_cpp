@@ -37,8 +37,14 @@ deltagen/
 ## Usage
 
 * Compare two directories with full recursive scan
+```cmd
 deltagen.exe C:\path\to\FolderA C:\path\to\FolderB
+```
 * Compare with specific recursion depth and custom output JSON path
+```cmd
 deltagen.exe C:\path\to\FolderA C:\path\to\FolderB --depth 1 --json changes.json
+```
 * Using assignment syntax
+```cmd
 deltagen.exe C:\path\to\FolderA C:\path\to\FolderB --depth=0 --json=manifest.json
+```
