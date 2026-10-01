@@ -19,8 +19,7 @@
 
 * C++17 compliant compiler (MSVC, Clang, or GCC / MinGW-w64)
 * CMake 3.15 or higher
-* [`nlohmann/json`](https://github.com/nlohmann/json) single-header library (`json.hpp`) inside the `include/` directory
-* *(Optional)* Doxygen for generating HTML API documentation
+* [`nlohmann/json`](https://github.com/nlohmann/json) single-header library (`json.hpp`) inside root directory
 
 ---
 
