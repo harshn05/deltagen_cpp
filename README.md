@@ -33,3 +33,15 @@ deltagen/
 │   └── json.hpp
 └── src/
     └── main.cpp
+```
+
+## Usage
+
+* Compare two directories with full recursive scan
+deltagen.exe C:\path\to\FolderA C:\path\to\FolderB
+
+* Compare with specific recursion depth and custom output JSON path
+deltagen.exe C:\path\to\FolderA C:\path\to\FolderB --depth 1 --json changes.json
+
+* Using assignment syntax
+deltagen.exe C:\path\to\FolderA C:\path\to\FolderB --depth=0 --json=manifest.json
