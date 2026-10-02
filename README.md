@@ -28,10 +28,8 @@
 ```text
 deltagen/
 ├── CMakeLists.txt
-├── include/
-│   └── json.hpp
-└── src/
-    └── main.cpp
+├── json.hpp
+└── main.cpp  
 ```
 
 ## Usage
